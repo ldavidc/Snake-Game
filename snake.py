@@ -14,7 +14,7 @@ green = (0, 255, 0)
 blue = (50, 153, 213)
 
 # Set display dimensions
-dis_width = 800
+dis_width = 600
 dis_height = 600
 
 # Create the display
@@ -23,7 +23,7 @@ pygame.display.set_caption('Snake Game by GitHub Copilot')
 
 # Set the game clock
 clock = pygame.time.Clock()
-snake_block = 10
+snake_block = 30
 snake_speed = 15
 
 # Define font styles
